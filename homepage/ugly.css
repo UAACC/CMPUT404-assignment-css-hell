@@ -1,0 +1,169 @@
+body {
+    
+    color: #0c5f05;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+  color: rgb(245, 243, 243);
+  
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url('https://www.5djiaren.com/uploads/2019-06/19-153734_625.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.masthead-intro {
+    background-color:blue;
+    margin-bottom: 21em;
+    
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+}
+
+.masthead-heading {
+    
+    color: #916809;
+    margin-top: -0.2em;
+    
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+
+.introduction-section,
+.location-section{
+    background-color: blue;
+    margin-left: 50em;
+}
+.questions-section {
+    background-color: rgb(9, 243, 165);
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.introduction-section > p,
+.location-section > p,
+.questions-section,
+.content-footer > p {
+    
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    
+    
+}
+.questions-section > li{
+    list-style-type: square;
+
+}
+section > h1 {
+    
+    color: #161516;
+}
+
+
+h2 {
+    
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #111111;
+    
+}
+
+
+.content-footer {
+  margin: 50px 0;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #01141d;
+  text-decoration: none;
+}
+.social > li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.content-footer > p {
+  color: #f4f6f4;
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #63f187;
+}
+
+.masthead > img {
+    width: 10%;
+    height: auto;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    margin-left: 45%;
+    border-radius: 5rem;
+}
+
+
+.introduction-section > img {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 5;
+
+}
+.location-section > img,
+.questions-section > img {
+    margin-top: auto;
+    opacity: 0.5;
+
+}
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(36, 20, 187);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+.sidenav >  a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #e4f0e5;
+    display: block;
+  }
+  
+@media only screen and (max-width: 500px) {
+    .masthead {
+        padding: 3em 0;
+    }
+    .masthead-heading {
+        font-size: 3em;
+        
+    }
+    .content-footer {
+        padding: 2em 2.5em;
+  }
+}
+

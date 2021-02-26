@@ -22,3 +22,13 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 Code is licensed under the Apache 2.0 license.
 
 
+For part1:
+1.i changed all of the headers to  'Lucida Console', monospace font family and color to black.
+2.i changed its backgroud pic to some antique yellow paper texture pic
+3.caption pics with '3d'like frame
+4.change the body paragraph fonts to 'Times New Roman', Times, serif font family.
+5 . add green frams to each paragraphs
+
+citations:https://codepen.io/
+https://www.w3schools.com/
+https://stackoverflow.com/
